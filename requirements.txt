@@ -1,0 +1,8 @@
+azure-ai-textanalytics
+azure-ai-formrecognizer
+azure-cognitiveservices-speech
+azure-search-documents
+azure-identity
+openai
+python-dotenv
+streamlit
