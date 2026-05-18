@@ -64,9 +64,10 @@ if __name__ == "__main__":
     client = get_client()
 
     documents = [
-        "Patient John Smith was admitted on 12th March with severe chest pain and high fever at St. Mary's Hospital in London.",
-        "Dr. Sarah Johnson prescribed Ibuprofen 400mg twice daily for 5 days.",
-        "The patient was discharged on 15th March after successful treatment."
+        "Broad medical scope: A dataset spanning 32 medical and public health subdomains.",
+        "Comprehensive Research Backbone: Over 1,850 peer-reviewed journals, books, and more than 750,000 peer-reviewed articles.",
+        "High volume: Over 5.5 billion words.",
+        "Continuously Updated Resource: Approximately 270 chapters and articles are included annually."
     ]
 
     detect_language(client, documents)
