@@ -1,0 +1,76 @@
+[
+    {
+        "document_id": 1,
+        "text": "atient shows signs of improvement after chemotherapy",
+        "sentiment": {
+            "overall": "positive",
+            "scores": {
+                "positive": 0.98,
+                "neutral": 0.01,
+                "negative": 0.0
+            },
+            "flag": "SAFE"
+        },
+        "entities": [],
+        "key_phrases": [
+            "atient shows",
+            "signs",
+            "improvement",
+            "chemotherapy"
+        ]
+    },
+    {
+        "document_id": 2,
+        "text": "The surgery was unsuccessful and complications have arisen",
+        "sentiment": {
+            "overall": "negative",
+            "scores": {
+                "positive": 0.0,
+                "neutral": 0.0,
+                "negative": 1.0
+            },
+            "flag": "HIGH RISK - Review required"
+        },
+        "entities": [
+            {
+                "text": "surgery",
+                "category": "Event",
+                "confidence": 0.98
+            }
+        ],
+        "key_phrases": [
+            "surgery",
+            "complications"
+        ]
+    },
+    {
+        "document_id": 3,
+        "text": "Blood pressure is normal and patient is responding well to medication",
+        "sentiment": {
+            "overall": "neutral",
+            "scores": {
+                "positive": 0.31,
+                "neutral": 0.69,
+                "negative": 0.0
+            },
+            "flag": "SAFE"
+        },
+        "entities": [
+            {
+                "text": "patient",
+                "category": "PersonType",
+                "confidence": 1.0
+            },
+            {
+                "text": "medication",
+                "category": "Product",
+                "confidence": 0.89
+            }
+        ],
+        "key_phrases": [
+            "Blood pressure",
+            "patient",
+            "medication"
+        ]
+    }
+]
