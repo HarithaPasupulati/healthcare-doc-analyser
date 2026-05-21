@@ -1,0 +1,6 @@
+Week 2 topics:
+- Azure AI Speech (speech to text, text to speech)
+- Azure Translator (text translation)
+- Question Answering (FAQ bot)
+- CLU (Conversational Language Understanding)
+- Start Project 1 Streamlit improvements
